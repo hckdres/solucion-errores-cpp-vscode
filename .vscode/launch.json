@@ -5,25 +5,13 @@
       "name": "Depurar C++",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/${fileBasenameNoExtension}.exe",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
-      "externalConsole": true,
-      "MIMode": "gdb",
-      "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/felip/OneDrive/Documentos/Pruebas",
-      "program": "c:/Users/felip/OneDrive/Documentos/Pruebas/build/Debug/outDebug",
+      "cwd": "${workspaceFolder}",  // Usa la ruta del proyecto actual
+      "program": "${workspaceFolder}/build/Debug/${fileBasenameNoExtension}.exe", // Nombre dinámico
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "gdb",  // Asegúrate de que GDB esté en el PATH
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
