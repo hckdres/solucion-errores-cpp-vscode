@@ -1,0 +1,15 @@
+# .gitignore
+
+# Carpetas de compilación
+build/
+output/
+
+# Archivos ejecutables
+*.exe
+*.out
+*.o
+
+# Archivos temporales o de IDE
+*.swp
+*.swo
+.vscode/  # Opcional: Si no quieres compartir configuraciones de VSCode
