@@ -11,7 +11,7 @@ Guía completa para configurar un entorno de desarrollo en C++ con Visual Studio
 ## 📚 Tabla de Contenidos
 1. [Requisitos](#-requisitos)
 2. [Instalación de Herramientas](#-instalación-de-herramientas)
-3. [Configuración de Variables de Entorno](#-configuración-de-variables-de-entorno)
+3. [Configuración de variables de Entorno ( Es muy importante esto )](#-Configuración-de-variables-de-Entorno-(-Es-muy-importante-esto))
 4. [Configuración del Proyecto](#-configuración-del-proyecto)
 5. [Compilación y Ejecución](#-compilación-y-ejecución)
 6. [Depuración](#-depuración)
@@ -68,7 +68,7 @@ Copy
 g++ --version  # Debe mostrar GCC 14.2.0 o superior
 gdb --version   # Debe mostrar GDB 13.2 o superior
 ```
-### 5. Configuracion de proyecto
+### 5. Configuración de proyecto
 ```bash
 1. Clonar el Repositorio
 bash
@@ -106,7 +106,7 @@ Copy
   }]
 }
 ```
-### 6. Compilacion y Ejecucion
+### 6. Compilación y Ejecución
 ```bash
 Abre un archivo .cpp en VSCode.
 
@@ -118,7 +118,7 @@ powershell
 Copy
 ./build/tu_archivo.exe
 ```
-### 7. Depuracion
+### 7. Depuración
 ```bash
 
 🐞 Depuración
