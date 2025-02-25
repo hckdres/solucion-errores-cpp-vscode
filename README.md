@@ -105,6 +105,11 @@ Copy
     "externalConsole": true
   }]
 }
+
+
+
+con este enlance pueden mirar si su codigo de json quedo bien https://jsonlint.com
+
 ```
 ### 6. Compilación y Ejecución
 ```bash
@@ -148,6 +153,9 @@ Solución:
 
 bash
 Copy
+```
+
+
 # Asegúrate de compilar todos los archivos .cpp:
 g++ src/archivo1.cpp src/archivo2.cpp -o build/ejecutable.exe
 Error: g++ no reconocido
